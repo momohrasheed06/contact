@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    border: 1px solid #06283D;
+    background-color: #06283D;
+    color: white;
+    border-radius: 10px;
+    width: 650px;
+    height: 500px;
+    padding: 1rem 1.5rem;
+    margin: auto;
+    /* text-align: center; */
+    
+}
+.contacts {
+    width: 85%;
+     display: flex; 
+     margin-right: auto;
+     margin-left: auto;
+     justify-content: center;
+    /* gap: 2em;  */
+}
+.contacts div{
+    margin-right: auto;
+    text-align: center;
+    margin-left: auto;
+}
+#icons{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+/* .contacts-info {
+    margin-top: -135px;
+    margin-bottom: 25px;
+} */
+
+.input{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#message{
+    width: 100%;
+    border-radius: 10px;
+}
+.message-box{
+    padding-top: 20px;
+}
+.name-email{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+.input-name{
+    width: 48%;
+}
+.input-email{
+    width: 48%;
+}
+.name-email input{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+    
+
+.message-box button{
+    margin-top: 10px;
+    padding: 5px 25px;
+    border: none;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+}
+.message-box .buon{
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+body h1 {
+    text-align: center;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+#main {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.fa {
+    
+}
+
+
+
